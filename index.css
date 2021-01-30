@@ -4,7 +4,8 @@
 }
 
 #header {
-  background-color: lightpink;
+  background-color:darkslategray;
+  color:white;
   height: 30vh;
   display: flex;
   flex-direction: column;
@@ -15,9 +16,15 @@
 #container {
   background-color: black;
   height: 70vh;
+  margin: 0 auto;
+  padding-top:25px;
   display: flex;
+  flex-wrap:wrap;
+  flex-grow:1;
+  width:50%;  
   justify-content: space-evenly;
-  align-items: center;
+  
+  
 }
 
 .tile {
@@ -25,3 +32,8 @@
   width: 200px;
   background-color: aliceblue;
 }
+.myDiv {
+  margin-left: 2px;
+  color:aquamarine
+}
+
